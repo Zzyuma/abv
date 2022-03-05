@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header{
+    height: 60px;
+    background: #FFFFFF;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: white;
+  } 
+  .logo{
+    font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 25px;
+  /* identical to box height, or 100% */
+  
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  
+  color: #69B9FF;
+  }
+  .menu a{
+    text-decoration: none;
+    font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  }
+  .active {
+    color: #0082F3;
+    margin-right: 40px;
+  }
+  .unactive {
+  color: #676770;
+  }
+  .main {
+    background-image: url(../img/bc.png.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  .img{
+    background-image: url(../img/bc.png.png);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    -webkit-background-size: cover;
+  }
+  .a {
+    text-align: center;
+  }
+  .button1{
+    background: #69B9FF;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 13px;
+    cursor: pointer;
+    transition: 1s;
+    width: 165px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 20px;
+}   
+.button2{
+    border: 1px solid #FFFFFF;
+    position: absolute;
+        transition: 1s;
+    cursor: pointer;
+    height: 50px;
+    background: rgb(255 255 255 / 0%);
+    margin-left: 15px;
+    width: 210px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 20px;  
+    border-radius: 4px;
+}
+.button1:hover{
+    background: #409ff2;
+}
+.button2:hover{
+       background: rgb(204 185 185 / 25%);
+}
+.h1{
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #676770;
+}
+
+.h2{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 70px;
+    letter-spacing: 3px;
+    color: #8E8E9C;
+}
+
